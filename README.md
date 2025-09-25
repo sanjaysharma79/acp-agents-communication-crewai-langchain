@@ -5,7 +5,7 @@ An ACP (Agent Communication Protocol) server and client setup where a LangChain 
 
 # Pre-requisites
 
-Install Ollama on your local machine from the [official website](https://ollama.com/). And then pull the llama model:
+Install Ollama on your local machine from the [official website](https://ollama.com/library/llama3.2). And then pull the llama model:
 
 ```bash
 ollama pull llama3.2
@@ -22,8 +22,11 @@ Run the servers first:
 
 ```bash
 python cat_server.py
+```
+```bash
 python dog_server.py
 ```
+
 Then run the client:
 
 ```bash
